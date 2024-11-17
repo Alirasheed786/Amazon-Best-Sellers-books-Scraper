@@ -1,32 +1,38 @@
-<h1>Amazon Best Sellers Books Scraper</h1>
+# Amazon Best Sellers Books Scraper
+
 This project scrapes best-seller books from amazon.com and stores the data in an Airtable table
 
-<h2>Pre-requisites</h2>
-<ol>
-  <li>Python3+</li>
-  <li>ScrapingBee API key</li>
-  <li>Airtable API key</li>
-</ol>
-<h2>Instructions</h2>
-<ol>
-  <li>Install requirements.txt<br>
-      `pip install -r requirements.txt`
-  </li>
-  <li>Add ScrapingBee API key to settings.py<br>
-      `SCRAPINGBEE_API_KEY = 'Your API key'`
-  </li>
-  <li>Add Airtable API credentials to config.json<br>
-      `"api_token": "Your API Token"`<br>
-      `"base_id": "Your base ID"`<br>
-      `"table_name": "Table name"`<br>
-  </li>
-  <li>Run the Scraper<br>
-      `scrapy crawl bs_books`<br>
-    or<br>
-      `scrapy crawl bs_books -o books.csv`<br>
-    (.csv, .json, and .xml are supported)
-      
-    
-  </li>
-  
-</ol>
+## Pre-requisites
+
+1. Python3+
+2. ScrapingBee API key
+3. Airtable API key
+
+## Instructions
+
+1. Install requirements.txt
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. Add ScrapingBee API key to settings.py
+   ```
+   SCRAPINGBEE_API_KEY = 'Your API key'
+   ```
+
+3. Add Airtable API credentials to config.json
+   ```
+   "api_token": "Your API Token"
+   "base_id": "Your base ID"
+   "table_name": "Table name"
+   ```
+
+4. Run the Scraper
+   ```
+   scrapy crawl bs_books
+   ```
+   or
+   ```
+   scrapy crawl bs_books -o books.csv
+   ```
+   (.csv, .json, and .xml are supported)
