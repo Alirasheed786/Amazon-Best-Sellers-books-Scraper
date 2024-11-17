@@ -1,0 +1,6 @@
+Please follow these instructions:
+    1. Install requirements.txt packages.
+    2. Make sure the current working directory is the directory which contains scrapy.cfg file in it.
+    3. Run the following command:
+        scrapy crawl bs_books 
+        (if output needs to be exported on a file then run "scrapy crawl bs_books -o <filename>" .csv, .json, and .xml are supported )
