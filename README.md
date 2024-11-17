@@ -10,20 +10,20 @@ This project scrapes best-seller books from amazon.com and stores the data in an
 <h2>Instructions</h2>
 <ol>
   <li>Install requirements.txt<br>
-      `pip install -r requirements.txt
+      `pip install -r requirements.txt`
   </li>
-  <li>Add ScrapingBee API key to settings.py\n
+  <li>Add ScrapingBee API key to settings.py<br>
       `SCRAPINGBEE_API_KEY = 'Your API key'`
   </li>
-  <li>Add Airtable API credentials to config.json\n
-      `"api_token": "Your API Token"`\n
-      `"base_id": "Your base ID"`\n
-      `"table_name": "Table name"`\n
+  <li>Add Airtable API credentials to config.json<br>
+      `"api_token": "Your API Token"`<br>
+      `"base_id": "Your base ID"`<br>
+      `"table_name": "Table name"`<br>
   </li>
-  <li>Run the Scraper
-      `scrapy crawl bs_books`\n
-    or\n
-      `scrapy crawl bs_books -o books.csv`\n
+  <li>Run the Scraper<br>
+      `scrapy crawl bs_books`<br>
+    or<br>
+      `scrapy crawl bs_books -o books.csv`<br>
     (.csv, .json, and .xml are supported)
       
     
