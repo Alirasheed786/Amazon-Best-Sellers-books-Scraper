@@ -1,5 +1,5 @@
 <h1>Amazon Best Sellers Books Scraper</h1>
-This project scrapes best seller books from amazon.com, and stores the data into an Airtable
+This project scrapes best-seller books from amazon.com and stores the data in an Airtable table
 
 <h2>Pre-requisites</h2>
 <ol>
@@ -9,7 +9,7 @@ This project scrapes best seller books from amazon.com, and stores the data into
 </ol>
 <h2>Instructions</h2>
 <ol>
-  <li>Install requirements.txt\n
+  <li>Install requirements.txt<br>
       `pip install -r requirements.txt
   </li>
   <li>Add ScrapingBee API key to settings.py\n
